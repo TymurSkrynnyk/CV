@@ -46,12 +46,13 @@ body {
 .sidebar-list li {
   padding-top: 10px;
   position: relative;
+  font-size: 19px;
 }
 
 .sidebar-list li::before {
   content: '';
   position: absolute;
-  top: 15px;
+  top: 19px;
   left: -15px;
   width: 5px;
   height: 5px;
@@ -61,6 +62,7 @@ body {
 
 .sidebar-title {
   color: #f1f1f1;
+  margin-bottom: 10px;
 }
 
 .bold-word-sidebar {
@@ -156,4 +158,14 @@ body {
 
 .company ul {
   margin-left: 18px;
+}
+
+.education {
+  margin-top: 13px;
+}
+
+.standart-text {
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 5px;
 }
