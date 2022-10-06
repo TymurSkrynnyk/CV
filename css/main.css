@@ -1,0 +1,159 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+}
+
+/* Sidebar */
+.sidebar {
+  background-color: rgb(14, 29, 50);
+}
+
+.content-sidebar {
+  margin: 30px 0 0 40px;
+}
+
+.cv-photo {
+  width: 370px;
+  margin-top: 30px;
+}
+
+.contacts {
+  margin-bottom: 40px;
+}
+
+.skills {
+  margin-bottom: 40px;
+}
+
+.sidebar-list {
+  margin-left: 25px;
+  list-style-type: none;
+  color: #f1f1f1;
+}
+
+.sidebar-list li {
+  padding-top: 10px;
+  position: relative;
+}
+
+.sidebar-list li::before {
+  content: '';
+  position: absolute;
+  top: 15px;
+  left: -15px;
+  width: 5px;
+  height: 5px;
+  border-radius: 80%;
+  background-color: coral;
+}
+
+.sidebar-title {
+  color: #f1f1f1;
+}
+
+.bold-word-sidebar {
+  font-weight: bold;
+  color: #f1f1f1;
+  padding-bottom: 10px;
+  text-decoration: none;
+}
+
+.bold-word-sidebar a {
+  padding-left: 6px;
+  text-decoration: none;
+  color: #c4c4c464;
+  font-size: 13px;
+}
+
+/* Content */
+
+.content {
+  margin-left: 70px;
+  width: 600px;
+}
+
+.about {
+  margin-top: 100px;
+  margin-right: 60px;
+}
+
+.front-end {
+  margin-bottom: 19px;
+}
+
+.my-name {
+  font-size: 50px;
+  margin-bottom: 24px;
+}
+
+.about p {
+  color: #595959;
+}
+
+.projects {
+  margin-top: 40px;
+  margin-bottom: 8px;
+}
+
+.projects ol {
+  padding-left: 18px;
+}
+
+.projects ol a {
+  color: #595959;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.projects p {
+  padding-bottom: 5px;
+}
+
+.work-exp {
+  margin-top: 50px;
+}
+
+.text-title-xl {
+  font-size: 30px;
+}
+
+.first-company {
+  margin-top: 12px;
+}
+
+.second-company {
+  margin-top: 16px;
+}
+
+.company-education-name {
+  margin-bottom: 10px;
+}
+
+.text-gray {
+  margin-bottom: 8px;
+  color: #7b7b7bc3;
+}
+
+.educate {
+  margin-top: 43px;
+}
+
+.education ul {
+  margin-left: 18px;
+}
+
+.company ul {
+  margin-left: 18px;
+}
