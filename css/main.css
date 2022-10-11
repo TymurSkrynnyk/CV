@@ -7,6 +7,7 @@ body {
   display: block;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
+  overflow-x: hidden;
 }
 
 .wrapper {
@@ -79,12 +80,24 @@ body {
   font-size: 13px;
 }
 
+
+.contact {
+  margin-top: 40px;
+}
+
+.contact li {
+  color: coral;
+}
+
+.contact a {
+  text-decoration: none;
+  color: #f1f1f1;
+  font-size: 15px;
+}
+
 /* Content */
 
-.content {
-  margin-left: 70px;
-  width: 600px;
-}
+
 
 .about {
   margin-top: 100px;
@@ -168,4 +181,41 @@ body {
   font-weight: 600;
   font-size: 16px;
   margin-bottom: 5px;
+}
+
+/* @Media */
+@media (max-width: 390px) {
+  .wrapper {
+    max-width: 390px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .content {
+    margin-left: 10px;
+    max-width: 390px;
+  }
+
+  .about {
+    margin-top: 30px;
+
+  }
+
+  .educate {
+    margin-bottom: 20px;
+  }
+
+  .projects ol a {
+    font-size: 17px;
+  }
+
+  .cv-photo {
+    width: 390px;
+    margin-top: 30px;
+  }
+
+  .contact {
+    margin-bottom: 30px;
+  }
+
 }
